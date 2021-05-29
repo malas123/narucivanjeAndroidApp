@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "882646400889",
+    "firebase_url": "https://diplomski-92a19.firebaseio.com",
+    "project_id": "diplomski-92a19",
+    "storage_bucket": "diplomski-92a19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882646400889:android:e227055d1e7116014ef9a8",
+        "android_client_info": {
+          "package_name": "com.peanut.diplomskitest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882646400889-phd4pf4v2hmjsh1daol9lf9semjhl2m7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.peanut.diplomskitest",
+            "certificate_hash": "97da057e9b1375ac0c4e601fb9a14f4757504340"
+          }
+        },
+        {
+          "client_id": "882646400889-9uhicrrtlcvvh1fedoi629s6fvf0e9s4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8TjQGOY1OqIQbr-7uNZHkOvL184C0yfo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882646400889-9uhicrrtlcvvh1fedoi629s6fvf0e9s4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

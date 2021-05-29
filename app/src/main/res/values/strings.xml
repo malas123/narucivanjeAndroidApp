@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Android Narucivanje</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="napomena">Napomena:</string>
+    <string name="ime">Ime*</string>
+    <string name="adresa">Adresa isporuke*</string>
+    <string name="br_tel">Br. telefona*</string>
+    <string name="naruci">Naruci</string>
+    <string name="e_mail">E mail</string>
+    <string name="korisnicko_ime">Korisnicko ime*</string>
+    <string name="password">Password*</string>
+    <string name="ponovi_password">Ponovi password*</string>
+    <string name="napravi_nalog">Napravi nalog</string>
+    <string name="login">Prijavi se</string>
+    <string name="channel_name">notifikacija o narudzbi</string>
+    <string name="channel_desc">notifikacija o narudzbi</string>
+    <string name="primjer_datuma">6.7.2020</string>
+    <string name="primjer_vremena">6:20</string>
+    <string name="br_artikala">Broj artikala: </string>
+    <string name="cijena">Cijena: </string>
+    <string name="status">Status: </string>
+    <string name="login_narudzbe">Morate se prijaviti da bi imali uvid u prethodne naruzbe!</string>
+    <string name="registruj_se">Registruj</string>
+    <string name="logout">Odjavi se</string>
+    <string name="vase_narudzbe">Sve narudzbe:</string>
+    <string name="osvjezi">Osvjezi listu</string>
+    <string name="dovrsi_narudzbu">Dovrsi narudzbu</string>
+    <string name="bez_interneta">Nemate internet konekciju!</string>
+    <string name="pokusaj_ponovo">Pokusaj ponovo</string>
+</resources>

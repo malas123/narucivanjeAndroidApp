@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.diplomskitest1.ui.main.FragmentNarudzbe"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:fitsSystemWindows="true"
+    android:id="@+id/fragment_narudzbe">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lin_layout_login"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+         >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login_narudzbe"
+            android:textColor="@color/black"
+            android:textSize="17sp"/>
+    <com.google.android.material.textfield.TextInputEditText
+       android:id="@+id/et_login_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:hint="@string/korisnicko_ime"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="20sp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+       android:id="@+id/et_login_pw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="20sp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:id="@+id/btn_login"
+
+            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" ili se "
+                 android:textSize="20sp"
+                android:textColor="@color/black"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/registruj_se"
+                android:id="@+id/btn_registracija"
+               
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vase_narudzbe"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/btn_narudzbe_refresh"
+            android:text="@string/osvjezi"
+
+            />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:visibility="gone"
+        android:id="@+id/rvNarudzbeNarucioca"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       />
+
+
+
+
+</LinearLayout>

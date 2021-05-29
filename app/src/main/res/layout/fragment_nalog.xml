@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.FragmentNalog"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:fitsSystemWindows="true"
+    >
+
+ <com.google.android.material.textfield.TextInputEditText
+     android:id="@+id/et_nalog_ime"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="5dp"
+     android:ems="10"
+     android:focusable="true"
+     android:focusableInTouchMode="true"
+     android:hint="@string/ime"
+     android:textColorHint="@color/colorAccent"
+     android:textSize="20sp" />
+
+ <com.google.android.material.textfield.TextInputEditText
+     android:id="@+id/et_nalog_adresa"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="5dp"
+     android:ems="10"
+     android:focusable="true"
+     android:focusableInTouchMode="true"
+     android:hint="@string/adresa"
+     android:textColorHint="@color/colorAccent"
+     android:textSize="20sp" />
+
+ <com.google.android.material.textfield.TextInputEditText
+     android:id="@+id/et_nalog_br_tel"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="5dp"
+     android:ems="10"
+     android:focusable="true"
+     android:focusableInTouchMode="true"
+     android:hint="@string/br_tel"
+     android:inputType="number"
+     android:textColorHint="@color/colorAccent"
+     android:textSize="20sp" />
+
+ <com.google.android.material.textfield.TextInputEditText
+     android:id="@+id/et_nalog_email"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="5dp"
+     android:ems="10"
+     android:focusable="true"
+     android:focusableInTouchMode="true"
+     android:hint="@string/e_mail"
+     android:inputType="textEmailAddress"
+     android:textColorHint="@color/colorAccent"
+     android:textSize="20sp" />
+
+ <com.google.android.material.textfield.TextInputEditText
+     android:id="@+id/et_nalog_username"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="15dp"
+     android:ems="10"
+     android:focusable="true"
+     android:focusableInTouchMode="true"
+     android:hint="@string/korisnicko_ime"
+     android:textColorHint="@color/colorAccent"
+     android:textSize="20sp" />
+
+ <com.google.android.material.textfield.TextInputEditText
+     android:id="@+id/et_nalog_pw1"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="5dp"
+     android:ems="10"
+     android:focusable="true"
+     android:focusableInTouchMode="true"
+     android:hint="@string/password"
+     android:inputType="textPassword"
+     android:textColorHint="@color/colorAccent"
+     android:textSize="20sp" />
+
+ <com.google.android.material.textfield.TextInputEditText
+     android:id="@+id/et_nalog_pw2"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="5dp"
+     android:ems="10"
+     android:focusable="true"
+     android:focusableInTouchMode="true"
+     android:hint="@string/ponovi_password"
+     android:inputType="textPassword"
+     android:textColorHint="@color/colorAccent"
+     android:textSize="20sp" />
+
+ <Button
+     android:id="@+id/btn_novi_nalog"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_horizontal"
+     android:text="@string/napravi_nalog"
+     android:background="@color/colorPrimary"/>
+ <Button
+     android:id="@+id/btn_logout"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_horizontal"
+     android:text="@string/logout"
+     android:background="@color/ivory"/>
+
+</LinearLayout>
